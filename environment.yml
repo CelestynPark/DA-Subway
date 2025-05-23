@@ -1,0 +1,16 @@
+name: subway-analysis
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - pandas
+    - requests
+    - matplotlib
+    - seaborn
+    - plotly
+    - openpyxl
+    - tqdm
+    - python-dotenv

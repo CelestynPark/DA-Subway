@@ -1,0 +1,8 @@
+pandas
+requests
+matplotlib
+seaborn
+plotly
+openpyxl
+tqdm
+python-dotenv
