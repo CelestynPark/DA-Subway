@@ -6,3 +6,6 @@ plotly
 openpyxl
 tqdm
 python-dotenv
+scikit-learn
+folium
+prophet
