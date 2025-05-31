@@ -16,3 +16,4 @@ dependencies:
     - python-dotenv
     - scikit-learn
     - prophet
+    - streamlit

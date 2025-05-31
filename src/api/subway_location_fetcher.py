@@ -17,7 +17,8 @@ CLUSTER_PATH = os.path.abspath('data/station_clusters.csv')
 OUTPUT_path = os.path.abspath('data/station_coords.csv')
 
 def fetch_coords(query: str):
-    params = {"query": f"{query}역"}
+    query = query.split("(")[0]
+    params = {"query": query if query.endswith('역') else f"{query}역"}
     try:
         response = requests.get(SEARCH_URL, headers=HEADERS, params=params)
         result = response.json()
